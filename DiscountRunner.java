@@ -12,8 +12,10 @@ public class DiscountRunner {
 		System.out.print("Enter the original bill amount: ");
 		double orig_cost = keyboard.nextDouble();
 		
+		//Creat new object
 		Discount ref = new Discount();
 		
+		//Call method and print output
 		System.out.println("Bill after discount: " + ref.Discounted(orig_cost));
 		
 		
