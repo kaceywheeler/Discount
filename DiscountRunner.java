@@ -1,5 +1,7 @@
 package ifs;
+//Import Discount class
 import ifs.Discount;
+//Import scanner 
 import java.util.Scanner;
 
 public class DiscountRunner {
